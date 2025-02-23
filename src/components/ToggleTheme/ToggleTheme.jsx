@@ -23,7 +23,7 @@ export default function ThemeToggle() {
   >
   
       {theme === "dark" ? (
-        <MoonIcon className="h-6 w-6 text-yellow-400" /> /* Se o tema for escuro, o ícone da lua é exibido. */
+        <MoonIcon className="h-6 w-6 text-white" /> /* Se o tema for escuro, o ícone da lua é exibido. */
       ) : (
         <SunIcon className="h-6 w-6 text-gray-800 dark:text-gray-100" /> /* Se o tema for claro, o ícone do sol é exibido. */
       )}
